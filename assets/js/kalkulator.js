@@ -1,3 +1,22 @@
+/* 
+Calculator features:
+1. AC
+2. %
+3. divided by
+4. multiply by
+5. minus
+6. plus
+7. equal-sign
+8. decimal
+
+calculator require 3 variables:
+number + operator + number
+
+currentNumber is the one displayed on the UI.
+*/
+
+// business logic: operator
+
 const operators = document.querySelectorAll(".operator")
 
 operators.forEach((operator) => {
